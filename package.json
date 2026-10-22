@@ -1,0 +1,8 @@
+{
+  "name": "glow-cosmetics-store",
+  "version": "1.0.0",
+  "description": "Animated cosmetics ecommerce starter with Express backend",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": { "express": "^4.21.2" }
+}

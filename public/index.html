@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff8f7" />
+  <title>Glow & Co. — Beauty, softly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">A little glow goes a long way ✨ &nbsp; Free delivery on orders over ৳1,500</div>
+  <header class="site-header">
+    <a class="brand" href="#"><span class="brand-mark">g.</span><span>glow<span class="brand-light"> & co.</span><small>BEAUTY, SOFTLY</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#shop">Shop all</a>
+      <div class="nav-dropdown"><a href="#shop">Categories <span>⌄</span></a><div class="dropdown-panel"><a href="#shop" data-category="Skincare">Skincare</a><a href="#shop" data-category="Makeup">Makeup</a><a href="#shop" data-category="Haircare">Haircare</a></div></div>
+      <a href="#ritual">Our ritual</a><a href="#reviews">Love notes</a>
+    </nav>
+    <div class="header-actions"><button class="icon-button" id="searchToggle" aria-label="Search">⌕</button><button class="cart-button" id="cartOpen">Bag <span id="cartCount">0</span></button></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> YOUR EVERYDAY BEAUTY RITUAL</p>
+        <h1>Good skin.<br><em>Good mood.</em><br>Great glow.</h1>
+        <p class="hero-description">Thoughtful beauty essentials that make your everyday routine feel like a little act of self-love.</p>
+        <div class="hero-buttons"><a class="button button-dark" href="#shop">Explore the collection <span>↗</span></a><a class="text-link" href="#ritual">Find your ritual <span>→</span></a></div>
+        <div class="hero-proof"><div class="avatar-stack"><span>✿</span><span>♡</span><span>✦</span></div><div><strong>4.9/5</strong><small>Loved by 2,000+ glow-getters</small></div></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="hero-sun"></div>
+        <div class="hero-bottle bottle-main"><div class="bottle-cap"></div><div class="bottle-neck"></div><div class="bottle-body"><span>GLOW<br><b>SERUM</b></span><i>rose + niacinamide</i></div></div>
+        <div class="hero-bottle bottle-small"><div class="bottle-cap"></div><div class="bottle-body"><span>soft<br>skin</span></div></div>
+        <div class="floating flower flower-one">✿</div><div class="floating flower flower-two">✽</div><div class="floating sparkle sparkle-one">✦</div><div class="floating sparkle sparkle-two">✧</div>
+        <div class="round-note">MADE WITH<br>CARE <span>♡</span></div>
+        <div class="art-caption">A softer kind of beauty.</div>
+      </div>
+      <div class="hero-bottom-label">01 — THE GLOW EDIT</div>
+    </section>
+
+    <section class="ticker"><div>GOOD INGREDIENTS <span>✳</span> FEEL-GOOD FORMULAS <span>✳</span> YOUR SKIN, YOUR RULES <span>✳</span> GOOD INGREDIENTS <span>✳</span> FEEL-GOOD FORMULAS <span>✳</span></div></section>
+
+    <section class="shop-section section-pad" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">THE GOOD STUFF</p><h2>Your new <em>favourites.</em></h2></div><p>Little luxuries, lovely results.<br>Made for your everyday.</p></div>
+      <div class="shop-tools"><div class="filters" id="filters"><button class="filter active" data-category="All">All products</button><button class="filter" data-category="Skincare">Skincare</button><button class="filter" data-category="Makeup">Makeup</button><button class="filter" data-category="Haircare">Haircare</button></div><label class="search-box" id="searchBox"><span>⌕</span><input id="searchInput" placeholder="Find your glow..." /></label></div>
+      <div class="product-grid" id="productGrid"><div class="loading">Finding your favourites…</div></div>
+      <div class="center-action"><span>GOOD BEAUTY. GOOD ENERGY.</span><a href="#shop">You deserve a little treat ↗</a></div>
+    </section>
+
+    <section class="ritual-section" id="ritual"><div class="ritual-art"><div class="ritual-circle"><span>YOUR</span><strong>glow</strong><span>YOUR WAY</span></div><span class="ritual-doodle">✿</span><span class="ritual-sticker">SELF LOVE<br>CLUB ♡</span></div><div class="ritual-copy"><p class="eyebrow">A MOMENT FOR YOU</p><h2>Make room for<br><em>yourself.</em></h2><p>Beauty isn't about changing who you are. It's about taking five minutes, slowing down, and giving yourself the same care you give everyone else.</p><div class="ritual-points"><div><span>01</span><p><b>Keep it simple</b><small>Everyday essentials, no fuss.</small></p></div><div><span>02</span><p><b>Choose what feels good</b><small>Your routine, your rules.</small></p></div><div><span>03</span><p><b>Let your glow be yours</b><small>Confidence looks good on you.</small></p></div></div><a class="button button-dark" href="#shop">Build your ritual <span>↗</span></a></div></section>
+
+    <section class="review-section" id="reviews"><p class="eyebrow">KIND WORDS, REAL GLOW</p><h2>Don't just take <em>our word.</em></h2><div class="review-grid"><article class="review-card"><div class="stars">★★★★★</div><p>“My evening routine finally feels like a treat instead of another thing on my to-do list.”</p><span>— Nabila, Dhaka</span></article><article class="review-card review-featured"><div class="stars">★★★★★</div><p>“The packaging is adorable, the products feel lovely, and my skin looks so fresh.”</p><span>— Samia, Chattogram</span></article><article class="review-card"><div class="stars">★★★★★</div><p>“A little self-care package that actually makes me excited to wash my face.”</p><span>— Tania, Sylhet</span></article></div></section>
+
+    <section class="newsletter"><div><p class="eyebrow">LET'S BE GLOW FRIENDS</p><h2>A little love<br>in your inbox.</h2><p>Beauty notes, new drops and treats just for you.</p></div><form id="newsletterForm"><label for="newsletterEmail">Your email address</label><div class="newsletter-input"><input id="newsletterEmail" type="email" placeholder="you@example.com" required><button type="submit">Count me in ↗</button></div><small id="newsletterMessage">No spam, just the good stuff.</small></form></section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#"><span class="brand-mark">g.</span><span>glow<span class="brand-light"> & co.</span><small>BEAUTY, SOFTLY</small></span></a><p>Made with care, for the skin you're in. ♡</p><div><a href="#shop">Shop</a><a href="#ritual">Our ritual</a><a href="#reviews">Reviews</a></div><small>© 2026 Glow & Co. Demo store.</small></footer>
+
+  <div class="cart-backdrop" id="cartBackdrop"></div><aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag"><div class="cart-head"><div><p class="eyebrow">YOUR LITTLE TREATS</p><h3>Your bag <span id="drawerCount">(0)</span></h3></div><button id="cartClose" class="close-button" aria-label="Close bag">×</button></div><div class="cart-items" id="cartItems"><p class="empty-cart">Your bag is looking a little lonely ♡</p></div><div class="cart-footer"><div class="cart-total"><span>Subtotal</span><strong id="cartTotal">৳0</strong></div><p>Delivery fee calculated separately.</p><button class="button button-dark checkout-button" id="checkoutOpen">Checkout <span>↗</span></button></div></aside>
+
+  <div class="modal-backdrop" id="checkoutBackdrop"><section class="checkout-modal"><button id="checkoutClose" class="close-button modal-x" aria-label="Close checkout">×</button><p class="eyebrow">ALMOST YOURS</p><h2>Let's get it <em>to you.</em></h2><p class="modal-subtitle">Fill in your delivery details to place a demo order.</p><form id="checkoutForm"><label>Your name<input name="customer" required placeholder="Full name"></label><label>Phone number<input name="phone" required type="tel" placeholder="01XXXXXXXXX"></label><label>Delivery address<textarea name="address" required rows="2" placeholder="House, road, area, city"></textarea></label><div class="checkout-summary"><span>Order total</span><strong id="checkoutTotal">৳0</strong></div><button class="button button-dark checkout-button" type="submit">Place my order ♡</button><p class="form-message" id="checkoutMessage"></p></form></section></div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="/app.js"></script>
+</body>
+</html>
